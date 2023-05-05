@@ -51,11 +51,10 @@
       }
     .bg-image { /*check as werk los in*/
         /* The image used */
-        background-image: url( "../images/general34.jpg");
-      
+      /*  background-image: url( "../images/general34.jpg");*/
+        background-image: url( "../images/general33.jpg");
         /* Add the blur effect */
-        filter: blur(8px);
-        -webkit-filter: blur(8px);
+    
       
         /* Full height */
         height: 100%; 
@@ -68,19 +67,34 @@
       /* Position text in the middle of the page/image */
 .bg-text {
     background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    background-color: rgba(0,0,0, 0.7); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: static; /*static dit werk!*/
+   
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+ 
+ /* .bg-text {
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4); 
     color: white;
     font-weight: bold;
     border: 3px solid #f1f1f1;
     position: absolute;
-    top: 50%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
     width: 80%;
     padding: 20px;
     text-align: center;
-  }
+  }*/
     /* Remove the navbar's default margin-bottom and rounded borders */ 
     .navbar {
       margin-bottom: 0;
