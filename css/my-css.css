@@ -155,7 +155,6 @@
       align-items: baseline;
       background-color: rgb(255, 153, 51);
       padding: 15px;
-      
   }
   .container-iframe {
     position: relative;
@@ -165,7 +164,6 @@
   }
   #highlight {
     font-size:20px;
-    
   }
     .div1 {
       display: flex;
@@ -174,28 +172,13 @@
   .bg-color {
       /* The image used */
       background-color: #fff2e6;
-   /*   background-color: rgb(4d2600);*/
       /* Full height */
       height: 100%; 
-      
       /* Center and scale the image nicely */
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
   }  
-  /*  try this out and try one on top 
-  .bg-image {
-     The image used 
-      background-image: url( "../images/blur-restaurant-3.png");
-     
-       Full height 
-      height: 100%; 
-      
-       Center and scale the image nicely 
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-  }   */
     /*icons*/
     .fa {
       padding: 5px;
