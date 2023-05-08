@@ -270,6 +270,8 @@
       background: rgb(255, 153, 51);
       color: rgb(51, 26, 0);
     }
+    .zoom-in {cursor: zoom-in;}
+    .zoom-out {cursor: zoom-out;}
     body, html { /***check as werk los in */
         height: 100%;
         margin: 0;
