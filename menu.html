@@ -38,8 +38,24 @@
     <div class="container-hours">
         <div class="row text-center" >
             <div class="col-sm-3"> 
-                <a class="fa fa-search-plus" alt="CMD/Ctrl+"> <span id="highlight-less">CMD/Ctrl+</span></a>
-                <a class="fa fa-search-minus" alt="CMD/Ctrl-"> <span id="highlight-less">CMD/Ctrl-</span></a>
+               <!-- <a class="fa fa-search-plus" alt="CMD/Ctrl+"> <span id="highlight-less">CMD/Ctrl+</span></a>
+                <a class="fa fa-search-minus" alt="CMD/Ctrl-"> <span id="highlight-less">CMD/Ctrl-</span></a>-->
+                <p id="plusMinus"></p> 
+                <script>
+                    var w = window.innerWidth;
+                    var x = document.getElementById("plusMinus");  
+                
+                /* must find out how to auto refresh when inner width is mobile related*/
+                
+                    if (window.innerWidth > 777) {
+                    document.getElementById("plusMinus").innerHTML = "CMD/Ctrl + and -";
+                   /*     document.getElementById("demo").innerHTML = "width " + window.innerWidth; */
+                    }
+                    else {
+                        x.innerHTML = "Browser width: " + w + ", height: " + h + ".";
+                    }
+               
+            </script>
             </div>
             <div class="col-sm-6">
                 <span id="highlight"><strong>Menu</strong></span>
