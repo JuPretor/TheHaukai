@@ -11,7 +11,9 @@
   <link rel="stylesheet" href="css/my-css.css"> 
 </head>
 <body>
-<nav class="navbar navbar-inverse">
+   
+
+    <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -27,15 +29,10 @@
         <li><a href="./menu.html">Menu</a></li>
         <li><a href="./reservations.html">Reservations</a></li>
         <li><a href="./contact.html">Contact</a></li>
-     <!--   <li><a href="/culture.html">Culture</a></li> later version-->
-  <!--   <div class="myDIV"> 
-        <i class="fa fa-search-plus" > </i>
-        <i class="fa fa-search-minus" > </i>
-        <i class="on-top" > CMD/Ctrl+ and - </i>
-    </div>-->
+    
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <!--login to see roster etc-->
+        
         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
       </ul>
     </div>
@@ -45,13 +42,24 @@
 <div class="container-hours">
     <div class="row text-center" >
         <div class="col-sm-3"> 
-            <div class="myDIV"> 
-                <i class="fa fa-search-plus" > </i>
-                <i class="fa fa-search-minus" > </i>
-                CMD/Ctrl+ and -
-            </div>
-            <div class="hide">I am shown when someone hovers over the div above.</div>
-          
+            <p id="demo"></p>
+            <script>
+                var w = window.innerWidth;
+
+                var x = document.getElementById("demo");
+             /*   x.innerHTML = "Browser width 1 1 : " + w + ", height: " + h + ".";*/
+                if (window.innerWidth > 800) {
+                 /*   <div class="myDIV"> 
+                            <i class="fa fa-search-plus" > </i>
+                            <i class="fa fa-search-minus" > </i>
+                            CMD/Ctrl+ and -
+                        </div>*/
+                        
+                        document.getElementById("demo").innerHTML = "CMD/Ctrl + and -";
+ 
+                }
+                </script>
+ 
         </div>
         <div class="col-sm-6">
             <span id="highlight-less"><strong>Opening hours</strong></span> Wednesdays to Sundays 6pm - 10pm
@@ -61,6 +69,10 @@
         </div>
     </div>
 </div>
+
+
+
+
 
 <div class="bg-image">  <!--must be 100%, else too short--> 
     <div class="bg-text">
