@@ -19,7 +19,7 @@
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span> 
         <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                      
+        <span class="icon-bar"></span>                   
       </button>
      <img src="./images/theHaukaiLogo.png"  width="100" height="94" alt="The Haukai Restaurant">
     </div>
@@ -42,24 +42,18 @@
 <div class="container-hours">
     <div class="row text-center" >
         <div class="col-sm-3"> 
-            <p id="demo"></p>
+            <p id="plusMinus"></p> 
             <script>
                 var w = window.innerWidth;
-
-                var x = document.getElementById("demo");
-             /*   x.innerHTML = "Browser width 1 1 : " + w + ", height: " + h + ".";*/
-                if (window.innerWidth > 360) {
-                 /*   <div class="myDIV"> 
-                            <i class="fa fa-search-plus" > </i>
-                            <i class="fa fa-search-minus" > </i>
-                            CMD/Ctrl+ and -
-                        </div>*/
-                        
-                        document.getElementById("demo").innerHTML = "CMD/Ctrl + and -";
- 
+                var x = document.getElementById("plusMinus");  
+                
+                /* must find out how to auto refresh when inner width is mobile related*/
+                /*x.innerHTML = "Browser width: " + w + ", height: " + h + ".";*/
+                if (window.innerWidth > 777) {
+                    document.getElementById("plusMinus").innerHTML = "CMD/Ctrl + and -";
                 }
-                </script>
- 
+            
+            </script>
         </div>
         <div class="col-sm-6">
             <span id="highlight-less"><strong>Opening hours</strong></span> Wednesdays to Sundays 6pm - 10pm
@@ -69,9 +63,6 @@
         </div>
     </div>
 </div>
-
-
-
 
 
 <div class="bg-image">  <!--must be 100%, else too short--> 
