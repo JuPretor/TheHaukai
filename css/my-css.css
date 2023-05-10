@@ -2,24 +2,31 @@
 * {   
     box-sizing: border-box;
     }
+    .desc {
+       color:pink; 
+    }
     /* to be used for menu items */
-     #menu {
+     .menu {
       color: rgb(25, 64, 98);
       font-weight: bold;
       font-size: larger;
      }
-     #menuItem {
+     .menuItem {
       color: rgb(0, 66, 0);
      }
-     #menuItemPrice {
+     .menuItemPrice {
       color: rgb(179, 45, 0);
      }
-     #menuDesc {
+     .menuDesc {
       color: rgb(25, 64, 98);
      }
-     #front {
+     .front {
         font-size: larger;
         word-spacing: 0.3em; 
+     }
+     .front-link {
+        color: #804000;
+        
      }
     h2,h3 {
       color: #804000
