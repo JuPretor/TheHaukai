@@ -131,10 +131,6 @@
         background-color: white;
         color:black;
     }  
-    .hide {
-        display: none;
-      }
-   
      /* Set brown background color for content between header and footer */
     .container {
       flex-direction:row;
@@ -294,12 +290,5 @@
         height: 100%;
         margin: 0;
         font-family: Arial, Helvetica, sans-serif;
-    }
-    .hide {
-        display: none;
-    }
-          
-    .myDIV:hover + .hide {
-        display: block;
-        color: red;
-    }
+    }    
+  
