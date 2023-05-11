@@ -76,6 +76,12 @@
         height: 100%;
         border: none;
     }
+    .staff-roster {
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+        padding-bottom: 40px;
+    }
     /* Remove the navbar's default margin-bottom and rounded borders */ 
     .navbar {
       margin-bottom: 0;
