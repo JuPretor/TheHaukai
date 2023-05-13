@@ -12,13 +12,17 @@
       font-size: larger;
      }
      .menuItem {
-      color: rgb(0, 66, 0);
+      color: rgb(250, 249, 246);
      }
      .menuItemPrice {
-      color: rgb(179, 45, 0);
+      /*color: rgb(179, 45, 0);*/
+      font-style: italic;
+      color: rgba(235,235,235, 0.7); /* Black w/opacity/see-through */
      }
      .menuDesc {
-      color: rgb(25, 64, 98);
+     /* color: rgb(25, 64, 98);
+      background-color: rgb(235,235,235);  Fallback color */
+      color: rgba(235,235,235, 0.7); /* Black w/opacity/see-through */
      }
      .front {
         font-size: larger;
@@ -26,11 +30,17 @@
      }
      .front-link {
         color: #804000;
-        
      }
     h3 {
       color: #804000
     }
+    h4 {
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0, 0.7); /* Black w/opacity/see-through */
+        color: white;
+        text-align: center;
+        padding: 5px;
+      }
     .on-top {
         color: rgb(255, 153, 51);
     }
@@ -41,6 +51,8 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        color: white;
+        font-weight: bold;
       }
     .bg-image { /*check as werk los in*/
         /* The image used */
@@ -63,7 +75,7 @@
         top: 50%;
         left: 50%;
         width: 80%;
-        padding: 20px;
+        padding: 10px;
         text-align: center;
     }
     .responsive-iframe {
@@ -80,6 +92,8 @@
         display: flex;
         justify-content: center;
         align-items: center;  
+        color: white;
+        font-weight: bold;
         padding-bottom: 20px;
     }
     .intro { /*testing*/
@@ -145,12 +159,22 @@
         color:black;
     }  
      /* Set brown background color for content between header and footer */
-    .container {
-      flex-direction:row;
-      text-decoration-color: #fff2e6; 
-      justify-content: center;
-      
+    /*.container {
+      display: flex;
+      text-decoration-color: #f2db0c; 
+      justify-content: space-around;
+      border: 5px yellow;
     }
+   .map {
+    flex: 1;
+   }*/
+   .container {
+    border: 5px rgb(255, 153, 51);
+    display: flex;
+   }
+   .home { /*toets*/
+    flex: 1;
+   }
      /* Set brown background color for content between header and footer */
     .container-hours {
       flex-direction:row;
