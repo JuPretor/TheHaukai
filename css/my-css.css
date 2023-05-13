@@ -145,33 +145,6 @@
       }
       .row.content {height:auto;} 
     }
-    /* Style the top navigation bar */
-   /* .topnav {   
-        overflow: hidden;   
-        background-color: #009999;
-    }
-    .topnav a {
-        float:left;   
-        display: block;
-        color:white;   
-        text-align: center;   
-        padding: 14px 16px;   
-        text-decoration: none;
-    }
-    .topnav a:hover {   
-        background-color: white;
-        color:black; 
-    }  ????????maybe uit*/
-     /* Set brown background color for content between header and footer */
-    /*.container {
-      display: flex;
-      text-decoration-color: #f2db0c; 
-      justify-content: space-around;
-      border: 5px yellow;
-    }
-   .map {
-    flex: 1;
-   }*/
    .container {
     border: 5px rgb(255, 153, 51);
     display: flex;
