@@ -60,6 +60,7 @@
       }
     .bg-image { /*check as werk los in*/
         /* The image used */
+       /* background-image: url( "../images/general33.jpg");*/
         background-image: url( "../images/general33.jpg");
         /* Full height */
         height: 100%; 
