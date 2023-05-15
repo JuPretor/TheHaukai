@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Haukai Restaurant homepage</title>
+  <title>Haukai Restaurant culture</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Information about The Haukai Restaurant in Bay of Islands ">
+  <meta name="description" content="Culture Information shared by The Haukai Restaurant in Bay of Islands ">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  <link rel= "stylesheet "  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="css/my-css.css"> 
+  <link rel="stylesheet" href="./css/my-css.css">
 </head>
+
 <body>
 <header>
 <nav class="navbar navbar-inverse">
@@ -18,17 +19,18 @@
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span> 
         <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                   
+        <span class="icon-bar"></span>                        
       </button>
-     <img src="./images/theHaukaiLogo.png"  width="100" height="94" alt="The Haukai Restaurant">
+      <img src="./images/theHaukaiLogo.png"  width="100" height="94"  alt="The Haukai Restaurant">
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="./index.html">Home</a></li>
+       <!-- <li class="active"><a href="/BootstrapX.html">Home</a></li>-->
+        <li><a href="./index.html">Home</a></li>
         <li><a href="./menu.html">Menu</a></li>
         <li><a href="./reservations.html">Reservations</a></li>
-        <li><a href="./contact.html">Contact</a></li>
-        <li><a href="./culture.html">Culture</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+        <li class="active"><a href="/culture.html">Culture</a></li> 
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="./staff.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
@@ -43,15 +45,18 @@
             <script>
                 var w = window.innerWidth;
                 var x = document.getElementById("plusMinus");  
+                
                 /* must find out how to auto refresh when inner width is mobile related*/
                 /*x.innerHTML = "Browser width: " + w + ", height: " + h + ".";*/
                 if (window.innerWidth > 777) {
                     document.getElementById("plusMinus").innerHTML = "CMD/Ctrl + and -";
                 }
+            
             </script>
         </div>
         <div class="col-sm-6">
-            <span id="highlight-less"><strong>Opening hours</strong></span> Wednesdays to Sundays 6pm - 10pm
+            <span id="highlight"><strong>Culture</strong></span>
+            <p><span id="highlight-less"><strong>Opening hours</strong></span> Wednesdays to Sundays 6pm - 10pm</p>
         </div>
         <div class="col-sm-3"> 
             <strong>Phone </strong><a class="black" href="tel:+0">+64 401 4019</a>
@@ -60,31 +65,41 @@
 </div>
 </header>
 
-<div class="bg-image">  <!--must be 100%, else too short--> 
-    <div class="intro">
-      <div class="bg-text" >
-            <h1>Welcome to </h1><h1> <strong>The Haukai Restaurant!</strong></h1>
-            <p class="front">We started our sharing M&amacr;ori kai with you a few years ago and we welcome you
-            to join us.  Whether you live close by or are here on your way to the Lord of the Rings, you are welcome 
-            to spend some time with us <a class="on-top" href="./contact.html"> here </a>  and enjoy a meal that makes you feel at home.</p>
-            <p class="front">Have a look at our <a class="on-top" href="./menu.html">menu</a>, you will find what you were thinking about for dinner, 
-            book your <a class="on-top" href="./reservations.html">reservation</a>, we are looking forward to serve you.</p>
-        </div> 
+<div class="bg-image-booking"> 
+   
+    <div class="container-fluid ">    
+
+        <div class="col-sm-2 text-center">
+                
+        <h4>Want to find out about 
+          <a class="on-top" href="https://maoritourism.co.nz/what-say/kaimoana#:~:text=For%20many%20people%2C%20including%20Māori,Pāua%20%2D%20abalone" title="Ahurea Culture"> M&amacr;ori kai?</a>
+        </h4>
+        <h4>Looking for some 
+          <a class="on-top" href="https://www.live-work.immigration.govt.nz/resources/maori-foods-and-recipes" title="Maori foods and recipes"> M&amacr;ori recipes?</a>
+        </h4>
+        <h4>Have a look where we are located and make your <a class="on-top"  href="./reservations.html">reservation.</a>
+        </h4>
+
+        </div>
+        
+        <div class="col-sm-10 text-center"> 
+            <div class="container-iframe"> 
+          
+            <iframe class="responsive-iframe" src="https://www.youtube.com/embed/A-gGGkmOmfI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen title="Karakia for kai"></iframe>
+            
+            </div> 
+            <p></p>
+        </div>
     </div>
+    
 </div>
+https://www.live-work.immigration.govt.nz/resources/maori-foods-and-recipes
 <footer class="container-fluid text-center">
     <a href="https://facebook.com" class="fa fa-facebook" aria-label="Facebook"></a>
     <a href="https://instagram.com" class="fa fa-instagram" aria-label="Instagram"></a>
-    <a href="https://twitter.com" class="fa fa-twitter" aria-label="Twitter"></a>
-    <a href="https://linkedin.com" class="fa fa-linkedin" aria-label="LinkedIn"></a>
-    <p>&copy;Copyright 2023 by Haukai Restaurant. All rights reserved.
-        <a href="http://jigsaw.w3.org/css-validator/check/referer">
-         <img style="border:0;width:88px;height:31px"
-          src="http://jigsaw.w3.org/css-validator/images/vcss"
-          alt="Valid CSS!" >
-        </a>
-    </p>
-
+    <a href="https://twitter.com" class="fa fa-twitter"  aria-label="Twitter"></a>
+    <a href="https://linkedin.com" class="fa fa-linkedin"  aria-label="LinkedIn"></a>
+  <p>&copy;Copyright 2023 by Haukai Restaurant. All rights reserved.</p>
 </footer>
 </body>
 </html>
