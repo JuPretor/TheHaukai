@@ -25,12 +25,12 @@
         font-size: larger;
         word-spacing: 0.3em; 
      }
-     .front-link {
+    /* .front-link {
         color: #804000;
-     }
+     } 
     h3 {
       color: #804000
-    }
+    }haal uit, nie gebruik*/
     h4 {
         background-color: rgb(0,0,0); /* Fallback color */
         background-color: rgba(0,0,0, 0.7); /* Black w/opacity/see-through */
@@ -46,7 +46,8 @@
         padding: 5px; 
     }  
     .on-top {
-        color: rgb(255, 153, 51);
+      /*  color: rgb(255, 153, 51);*/
+        color: #ff9933;
     }
     .bg-image-booking { /*check as werk los in*/
         /* The image used */
@@ -146,10 +147,11 @@
       }
       .row.content {height:auto;} 
     }
-   .container {
-    border: 5px rgb(255, 153, 51);
+  /* haal uit en check .container {
+  
+    border: #ff9933;
     display: flex;
-   }
+   }*/
    .home { /*toets*/
     flex: 1;
    }
@@ -157,10 +159,12 @@
     .container-hours {
       flex-direction:row;
       justify-content: space-evenly;
-      color: rgb(51, 26, 0); 
+      /*color: rgb(51, 26, 0); */
+      color: #252525;
      
       align-items: baseline;
-      background-color: rgb(255, 153, 51);
+     /* background-color: rgb(255, 153, 51);*/
+      background-color: #ff9933;
       padding: 10px;/* was 15?*/
     }
     .container-iframe {
@@ -291,7 +295,7 @@
       background: #ff6600;
       color: white;
     }
-    .fa-phone {
+  /*  .fa-phone {
       background: rgb(255, 153, 51);
       color: rgb(51, 26, 0);
       text-decoration: none;
@@ -305,7 +309,7 @@
         background: rgb(255, 153, 51);
         color: rgb(51, 26, 0);
         text-decoration: none;
-    }
+    } haal uit*/
     body, html { /***check as werk los in */
         height: 100%;
         margin: 0;
