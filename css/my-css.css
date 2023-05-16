@@ -6,31 +6,25 @@
        color:black; 
     }
     /* to be used for menu items */
-     .menu {
+    .menu {
       color: rgb(25, 64, 98);
       font-weight: bold;
       font-size: larger;
      }
-     .menuItem {
+    .menuItem {
       color: rgb(250, 249, 246);
-     }
-     .menuItemPrice {
+    }
+    .menuItemPrice {
       font-style: italic;
       color: rgba(235,235,235, 0.7); /* Black w/opacity/see-through */
-     }
-     .menuDesc {
+    }
+    .menuDesc {
       color: rgba(235,235,235, 0.7); /* Black w/opacity/see-through */
-     }
-     .front {
+    }
+    .front {
         font-size: larger;
         word-spacing: 0.3em; 
-     }
-    /* .front-link {
-        color: #804000;
-     } 
-    h3 {
-      color: #804000
-    }haal uit, nie gebruik*/
+    }
     h4 {
         background-color: rgb(0,0,0); /* Fallback color */
         background-color: rgba(0,0,0, 0.7); /* Black w/opacity/see-through */
@@ -295,21 +289,6 @@
       background: #ff6600;
       color: white;
     }
-  /*  .fa-phone {
-      background: rgb(255, 153, 51);
-      color: rgb(51, 26, 0);
-      text-decoration: none;
-    }
-    .fa-search-plus {
-        background: rgb(255, 153, 51);
-        color: rgb(51, 26, 0);
-        text-decoration: none;
-    }
-    .fa-search-minus {
-        background: rgb(255, 153, 51);
-        color: rgb(51, 26, 0);
-        text-decoration: none;
-    } haal uit*/
     body, html { /***check as werk los in */
         height: 100%;
         margin: 0;
