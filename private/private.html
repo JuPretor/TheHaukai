@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Dinner reservations at The Haukai Restaurant in Bay of Islands ">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
-    <link rel= "stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel= "stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="./css/my-css.css">
+    <link rel="stylesheet" href="../css/my-css.css">
 </head>
 <body>
   <nav class="navbar navbar-inverse">
@@ -20,28 +20,27 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>                        
         </button>
-       <img src="./images/theHaukaiLogo.png"  width="100" height="94"  alt="The Haukai Restaurant">
+       <img src="../images/theHaukaiLogo.png"  width="100" height="94"  alt="The Haukai Restaurant">
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./menu.html">Menu</a></li>
-          <li class="active"><a href="./reservations.html">Reservations</a></li>
-          <li><a href="./contact.html">Contact</a></li>
-          <li><a href="./culture.html">Culture</a></li>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../menu.html">Menu</a></li>
+          <li><a href="../reservations.html">Reservations</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+          <li><a href="../culture.html">Culture</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-       <!--   <li><a href="./staff.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>-->
-          <li><a href="./private/private.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          <li class="active"><a href="/private/private.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
         </ul>
       </div>
     </div>
 </nav>
-    <div class="container-hours">
-        <div class="row text-center" >
-            <div class="col-sm-3"> 
-                <p id="plusMinus"></p> 
-                <script>
+<div class="container-hours">
+    <div class="row text-center" >
+        <div class="col-sm-3"> 
+            <p id="plusMinus"></p> 
+            <script>
                     var w = window.innerWidth;
                     var x = document.getElementById("plusMinus");  
                 
@@ -51,22 +50,23 @@
                         document.getElementById("plusMinus").innerHTML = "CMD/Ctrl + and -";
                     }
             
-                </script>
-            </div>
-            <div class="col-sm-6">
-                <span id="highlight"><strong>Reservations</strong></span>
+            </script>
+        </div>
+        <div class="col-sm-6">
+              <!--  <span id="highlight"><strong>Staff Roster</strong></span>-->
+                <span id="highlight"><strong>Private Staff Roster testing 123</strong></span>
                <p> <span id="highlight-less"><strong>Opening hours</strong></span> Wednesdays to Sundays 6pm - 10pm</p>
-            </div>
-            <div class="col-sm-3"> 
-                <strong>Phone </strong><a class="black" href="tel:+0">+64 401 4019</a>
-            </div>
+        </div>
+        <div class="col-sm-3"> 
+          <strong>Phone </strong><a class="black" href="tel:+0">+64 401 4019</a>
         </div>
     </div>
-<div class="bg-image-booking"> 
-    <div class="staff-roster"> 
-        <iframe class="iframe" src="https://docs.google.com/forms/d/e/1FAIpQLSfLO0S1dC3VjcS1B2Lf3c53r6KZfRUizP_OMPun23eTs4-eXQ/viewform?embedded=true" width="800" height="1350"></iframe>
+  </div>
+  <div class="bg-image-booking"> 
+    <div class="staff-roster">
+        <iframe src="https://calendar.google.com/calendar/embed?src=b31a2b1b1e2dd278fc10c9659def545068b51f635cd50cb6089cdee425cd1d83%40group.calendar.google.com&ctz=Pacific%2FAuckland" style="border: 0" width="800" height="550" ></iframe>
     </div>
-</div> 
+  </div> 
 <footer class="container-fluid text-center">
     <a href="https://facebook.com" class="fa fa-facebook" aria-label="Facebook"></a>
     <a href="https://instagram.com" class="fa fa-instagram" aria-label="Instagram"></a>
