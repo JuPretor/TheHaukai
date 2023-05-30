@@ -2,90 +2,114 @@
 * {   
     box-sizing: border-box;
     }
-    .black {
-       color:black; 
-    }
+.black {
+  color:black; 
+}
+.container-private1 {
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;    
+}
+.intro { 
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
     /* to be used for menu items */
-    .menu {
-      color: rgb(25, 64, 98);
-      font-weight: bold;
-      font-size: larger;
-     }
-    .menuItem {
-      color: rgb(250, 249, 246);
-    }
-    .menuItemPrice {
-      font-style: italic;
-      color: rgba(235,235,235, 0.7); /* Black w/opacity/see-through */
-    }
-    .menuDesc {
-      color: rgba(235,235,235, 0.7); /* Black w/opacity/see-through */
-    }
-    .front {
-        font-size: larger;
-        word-spacing: 0.3em; 
-    }
-    h4 {
-        background-color: rgb(0,0,0); /* Fallback color */
-        background-color: rgba(0,0,0, 0.7); /* Black w/opacity/see-through */
-        color: white;
-        text-align: center;
-        padding: 5px;
-      }
-    .dark-back {
-        background-color: rgb(0,0,0); /* Fallback color */
-        background-color: rgba(0,0,0, 0.7); /* Black w/opacity/see-through */
-        text-align: center;
-        padding: 5px; 
-    }  
-    .on-top {
-        color: #ff9933;
-    }
-    .bg-image-booking { /*check as werk los in*/
+.menu {
+  color: rgb(25, 64, 98);
+  font-weight: bold;
+  font-size: larger;
+}
+.menuItem {
+  color: rgb(250, 249, 246);
+}
+.menuItemPrice {
+  font-style: italic;
+  color: rgba(235,235,235, 0.7); /* Black w/opacity/see-through */
+}
+.menuDesc {
+  color: rgba(235,235,235, 0.7); /* Black w/opacity/see-through */
+}
+.front {
+  font-size: larger;
+  word-spacing: 0.3em; 
+}
+h4 {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.7); /* Black w/opacity/see-through */
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+.dark-back {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.7); /* Black w/opacity/see-through */
+  text-align: center;
+  padding: 5px; 
+}  
+.on-top {
+  color: #ff9933;
+}
+.bg-image-booking { /*check as werk los in*/
         /* The image used */
-        background-image: url( "../images/general33.jpg");
+  background-image: url( "../images/general33.jpg");
         /* Center and scale the image nicely */
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        color: white;
-        font-weight: bold;
-      }
-    .bg-image { /*check as werk los in*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-weight: bold;
+}
+.bg-image { /*check as werk los in*/
         /* The image used */
        /* background-image: url( "../images/general33.jpg");*/
-        background-image: url( "../images/general33.jpg");
+  background-image: url( "../images/general33.jpg");
         /* Full height */
-        height: 100%; 
+  height: 100%; 
         /* Center and scale the image nicely */
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
       /* Position text in the middle of the page/image */
-    .bg-text {
-        background-color: rgb(0,0,0); /* Fallback color */
-        background-color: rgba(0,0,0, 0.7); /* Black w/opacity/see-through */
-        color: white;
-        font-weight: bold;
-        border: 3px solid #f1f1f1;
-        position: static; /*static dit werk!*/
-        top: 50%;
-        left: 50%;
-        width: 80%;
-        padding: 10px;
-        text-align: center;
-    }
-    .responsive-iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        width: 100%;
-        height: 100%;
-        border: none;
-    }
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.7); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: static; /*static dit werk!*/
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  padding: 10px;
+  text-align: center;
+}
+.bg-text-contact {
+  background-color: rgb(255,255,255); /* Fallback color */
+  background-color: rgb(255,255,255, 0.7); /* Fallback color */
+  color: black;
+  border: 3px solid #f1f1f1;
+  position: static; /*static dit werk!*/
+  top: 50%;
+  left: 50%;
+  height: 100px;
+  }
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
     .staff-roster {
         display: flex;
         justify-content: center;
@@ -93,13 +117,7 @@
         color: white;
         font-weight: bold;
         padding-bottom: 20px;
-    }
-    .intro { /*testing*/
-        display: flex;
-        justify-content: center;
-        align-items: center;  
-        padding-top: 20px;
-        padding-bottom: 20px;
+        flex-direction: column; /*or row??????????*/
     }
     /* Remove the navbar's default margin-bottom and rounded borders */ 
     .navbar {
@@ -107,7 +125,7 @@
       border-radius: 0;
     }
     /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-    .row.content {
+    .row.content {  /*duplicate daar onder....?*/
       height: 450px;
     }
     /* Set gray background color and 100% height */
@@ -137,7 +155,7 @@
         height: auto;
         padding: 15px;
       }
-      .row.content {height:auto;} 
+      .row.content {height:auto;} /*duplicate daaronder...?*/
     }
    .home { 
     flex: 1;
@@ -157,10 +175,20 @@
         overflow: hidden;
         padding-top: 56.25%; /* 16:9 Aspect Ratio */
     }
-    iframe {
+    .container-iframe1 {
+      position: relative;
+    /*  width: 100%;*/
+      overflow: hidden;
+      flex-direction: column; /*or row??????????*/
+      padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  }
+    iframe { /* haal maar uit, nie punt("." voor*/
         display: block;
         margin: 20px 15px 10px 5px; /* top right bottom left */
         border: none;
+    }
+    .item {
+      flex-shrink: 1;
     }
     #highlight-less {
         font-size:16px;
