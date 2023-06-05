@@ -65,9 +65,8 @@ h4 {
   color: white;
   font-weight: bold;
 }
-.bg-image { /*check as werk los in*/
+.bg-image { 
         /* The image used */
-       /* background-image: url( "../images/general33.jpg");*/
   background-image: url( "../images/general33.jpg");
         /* Full height */
   height: 100%; 
